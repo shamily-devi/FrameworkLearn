@@ -80,3 +80,18 @@
 23:18:26.191 [main] INFO  testWithMavenMakeMyTrip.MainPageFlightsTest - travellersClass method successfully completed 
 23:18:26.191 [main] DEBUG testWithMavenMakeMyTrip.MainPageFlightsTest - invoking getSearch method 
 23:18:48.919 [main] INFO  testWithMavenMakeMyTrip.MainPageFlightsTest - getSearch method successfully completed 
+00:29:40.419 [main] INFO  testWithMavenMakeMyTrip.MainPageFlightsTest - Browser Initilzatied Successfully
+00:30:16.264 [main] DEBUG testWithMavenMakeMyTrip.MainPageFlightsTest - invoking toOrFromCitySelect method 
+00:30:16.265 [main] INFO  testWithMavenMakeMyTrip.MainPageFlightsTest - Entered into getSearch method successfully 
+00:30:17.321 [main] INFO  testWithMavenMakeMyTrip.MainPageFlightsTest - getSearch method successfully completed --GitHub
+00:30:26.531 [main] DEBUG testWithMavenMakeMyTrip.MainPageFlightsTest - invoking getSearch method -test
+00:30:28.251 [main] INFO  testWithMavenMakeMyTrip.MainPageFlightsTest - getSearch method successfully completed --GitHub
+00:30:31.405 [main] DEBUG testWithMavenMakeMyTrip.MainPageFlightsTest - invoking getSearch method -test
+00:30:32.468 [main] INFO  testWithMavenMakeMyTrip.MainPageFlightsTest - toOrFromCitySelect method successfully completed 
+00:30:32.469 [main] DEBUG testWithMavenMakeMyTrip.MainPageFlightsTest - invoking dateSelection method 
+00:30:32.658 [main] INFO  testWithMavenMakeMyTrip.MainPageFlightsTest - getSearch method successfully completed-For 
+00:30:36.092 [main] INFO  testWithMavenMakeMyTrip.MainPageFlightsTest - dateSelection method successfully completed 
+00:30:36.093 [main] DEBUG testWithMavenMakeMyTrip.MainPageFlightsTest - invoking travellersClass method 
+00:30:39.912 [main] INFO  testWithMavenMakeMyTrip.MainPageFlightsTest - travellersClass method successfully completed 
+00:30:39.913 [main] DEBUG testWithMavenMakeMyTrip.MainPageFlightsTest - invoking getSearch method 
+00:30:52.258 [main] INFO  testWithMavenMakeMyTrip.MainPageFlightsTest - getSearch method successfully completed 
