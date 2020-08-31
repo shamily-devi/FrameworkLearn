@@ -18,8 +18,8 @@ public class Base {
 		FileInputStream fis = new FileInputStream(
 				System.getProperty("user.dir") + "\\src\\main\\java\\com\\resources\\data.properties");
 		prop.load(fis);
-		String browserName = System.getProperty("browser");
-		//String browserName = prop.getProperty("browser");
+		//String browserName = System.getProperty("browser");
+		String browserName = prop.getProperty("browser");
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\chromedriver.exe");

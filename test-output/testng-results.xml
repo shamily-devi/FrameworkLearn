@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="74054" started-at="2020-08-29T18:20:43 IST" finished-at="2020-08-29T18:21:57 IST">
+  <suite name="Default suite" duration-ms="99697" started-at="2020-08-31T23:17:09 IST" finished-at="2020-08-31T23:18:49 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="74054" started-at="2020-08-29T18:20:43 IST" finished-at="2020-08-29T18:21:57 IST">
-      <class name="TestWithMaven.MakeMyTrip.MainPageFlightsTest">
-        <test-method status="PASS" signature="oneWayTrip()[pri:0, instance:TestWithMaven.MakeMyTrip.MainPageFlightsTest@65fb9ffc]" name="oneWayTrip" duration-ms="73702" started-at="2020-08-29T18:20:43 IST" finished-at="2020-08-29T18:21:57 IST">
+    <test name="Default test" duration-ms="99697" started-at="2020-08-31T23:17:09 IST" finished-at="2020-08-31T23:18:49 IST">
+      <class name="testWithMavenMakeMyTrip.MainPageFlightsTest">
+        <test-method status="PASS" signature="oneWayTrip()[pri:0, instance:testWithMavenMakeMyTrip.MainPageFlightsTest@68e5eea7]" name="oneWayTrip" duration-ms="99474" started-at="2020-08-31T23:17:09 IST" finished-at="2020-08-31T23:18:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oneWayTrip -->
-      </class> <!-- TestWithMaven.MakeMyTrip.MainPageFlightsTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- testWithMavenMakeMyTrip.MainPageFlightsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

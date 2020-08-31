@@ -13,7 +13,7 @@ public class MainPageFlights {
 	
 	String serachBoxDOM = "return document.querySelector(\"input[aria-controls='react-autowhatever-1']\").getAttribute(\"value\");";
 	
-	@FindBy(id="fromCity") WebElement from;
+	@FindBy(id="fromCity") private static WebElement from;
 	
 	@FindBy(xpath="//input[@aria-controls='react-autowhatever-1']") WebElement searchBox;
 	

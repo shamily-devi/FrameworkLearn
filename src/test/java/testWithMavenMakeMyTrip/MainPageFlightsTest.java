@@ -123,6 +123,7 @@ public class MainPageFlightsTest extends Base {
 		while (!f.getDepatureMonth().getText().contains(reqMonth)) {
 			f.getNextButton().click();
 		}
+		log.info("getSearch method successfully completed-For ");
 
 		for (int j = 0; j < f.getDepatureDays().size(); j++) {
 			WebElement day = f.getDepatureDays().get(j);
