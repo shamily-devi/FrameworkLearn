@@ -99,6 +99,7 @@ public class MainPageFlightsTest extends Base {
 				}
 			});
 			System.out.println(f.getPopularCity().getText());
+			log.debug("invoking getSearch method -test");
 
 			for (int i = 0; i < f.getSuggestedToCity().size(); i++) {
 				String toCity = f.getSuggestedToCity().get(i).getText();
