@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74054" started-at="2020-08-29T18:20:43 IST" finished-at="2020-08-29T18:21:57 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="74054" started-at="2020-08-29T18:20:43 IST" finished-at="2020-08-29T18:21:57 IST">
+      <class name="TestWithMaven.MakeMyTrip.MainPageFlightsTest">
+        <test-method status="PASS" signature="oneWayTrip()[pri:0, instance:TestWithMaven.MakeMyTrip.MainPageFlightsTest@65fb9ffc]" name="oneWayTrip" duration-ms="73702" started-at="2020-08-29T18:20:43 IST" finished-at="2020-08-29T18:21:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneWayTrip -->
+      </class> <!-- TestWithMaven.MakeMyTrip.MainPageFlightsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

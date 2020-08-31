@@ -1,0 +1,10 @@
+2020-08-30 00:12:53.623 [main] INFO  TestWithMaven.MakeMyTrip.MainPageFlightsTest - Browser Initilzatied Successfully
+2020-08-30 00:13:25.957 [main] DEBUG TestWithMaven.MakeMyTrip.MainPageFlightsTest - invoking toOrFromCitySelect method 
+2020-08-30 00:13:25.957 [main] INFO  TestWithMaven.MakeMyTrip.MainPageFlightsTest - Entered into getSearch method successfully 
+2020-08-30 00:13:36.242 [main] INFO  TestWithMaven.MakeMyTrip.MainPageFlightsTest - toOrFromCitySelect method successfully completed 
+2020-08-30 00:13:36.242 [main] DEBUG TestWithMaven.MakeMyTrip.MainPageFlightsTest - invoking dateSelection method 
+2020-08-30 00:13:38.944 [main] INFO  TestWithMaven.MakeMyTrip.MainPageFlightsTest - dateSelection method successfully completed 
+2020-08-30 00:13:38.944 [main] DEBUG TestWithMaven.MakeMyTrip.MainPageFlightsTest - invoking travellersClass method 
+2020-08-30 00:13:41.586 [main] INFO  TestWithMaven.MakeMyTrip.MainPageFlightsTest - travellersClass method successfully completed 
+2020-08-30 00:13:41.586 [main] DEBUG TestWithMaven.MakeMyTrip.MainPageFlightsTest - invoking getSearch method 
+2020-08-30 00:13:54.812 [main] INFO  TestWithMaven.MakeMyTrip.MainPageFlightsTest - getSearch method successfully completed 
