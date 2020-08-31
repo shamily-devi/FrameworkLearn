@@ -84,6 +84,9 @@ public class MainPageFlightsTest extends Base {
 			f.getSearchBox().sendKeys(fromAndToCity);
 
 			System.out.println(f.getPopularCity().getText());
+			
+			log.info("getSearch method successfully completed --GitHub");
+
 
 			int secondsToweight = fromAndToCity.length();
 			Wait<WebDriver> fluentwait = new FluentWait<WebDriver>(driver).withTimeout(Duration.ofSeconds(30))
