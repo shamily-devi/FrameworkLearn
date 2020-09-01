@@ -23,7 +23,7 @@ import com.resources.Base;
 
 public class MainPageFlightsTest extends Base {
 	private WebDriver driver;
-	private MainPageFlights f;
+	 MainPageFlights f;
 	//private WebDriverWait wait;
 	private JavascriptExecutor js;
 	private Actions a;
@@ -49,7 +49,7 @@ public class MainPageFlightsTest extends Base {
 		//System.out.println(textBoxValue);
 		log.debug("invoking toOrFromCitySelect method ");
 
-		toOrFromCitySelect(fromAndToCityArr);
+		toOrFromCitySelect(fromAndToCityArr,f,driver);
 		log.info("toOrFromCitySelect method successfully completed ");
 		log.debug("invoking dateSelection method ");
 
@@ -72,7 +72,7 @@ public class MainPageFlightsTest extends Base {
 	
 
 
-	public void toOrFromCitySelect(String fromAndToCityArr[]) {
+	public void toOrFromCitySelect(String fromAndToCityArr[],final MainPageFlights f,WebDriver driver) {
 		log.info("Entered into getSearch method successfully ");
 
 		 

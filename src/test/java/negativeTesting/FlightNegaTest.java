@@ -19,13 +19,13 @@ public class FlightNegaTest extends Base {
 	public WebDriver driver;
 	public MainPageFlights f;
 	public Actions a;
-	public MainPageFlightsTest pf;
+	MainPageFlightsTest pf;
 	private static Logger log = LogManager.getLogger(MainPageFlightsTest.class.getName());
 
 	
 	@Test
 	public void checkForSameFromAndToCity() throws IOException {
-		String fromAndToCityArr[] = {"BLR","BLR"};
+		String fromAndToCityArr[] = { "MAA", "MAA" };
 		driver = browserCall();
 		log.info("Browser Initilzatied Successfully");
 		driver.get(prop.getProperty("url"));
@@ -34,8 +34,9 @@ public class FlightNegaTest extends Base {
 		a.moveByOffset(1069, 355).click().build().perform();
 		f.getFrom().click();
 		log.debug("invoking toOrFromCitySelect method ");
+		pf = new MainPageFlightsTest();
 
-		pf.toOrFromCitySelect(fromAndToCityArr);
+		pf.toOrFromCitySelect(fromAndToCityArr,f,driver);
 		
 		Assert.assertTrue(f.getErrMsgSameCity().getText().equals("From & To airports cannot be the same"));
 		log.info("Porpoer error message is Shown ");
