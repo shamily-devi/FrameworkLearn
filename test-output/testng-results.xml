@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="105177" started-at="2020-09-01T00:29:07 IST" finished-at="2020-09-01T00:30:52 IST">
+  <suite name="Default suite" duration-ms="75506" started-at="2020-09-02T00:10:38 IST" finished-at="2020-09-02T00:11:53 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="105177" started-at="2020-09-01T00:29:07 IST" finished-at="2020-09-01T00:30:52 IST">
-      <class name="testWithMavenMakeMyTrip.MainPageFlightsTest">
-        <test-method status="PASS" signature="oneWayTrip()[pri:0, instance:testWithMavenMakeMyTrip.MainPageFlightsTest@5f8edcc5]" name="oneWayTrip" duration-ms="104823" started-at="2020-09-01T00:29:07 IST" finished-at="2020-09-01T00:30:52 IST">
+    <test name="Default test" duration-ms="75506" started-at="2020-09-02T00:10:38 IST" finished-at="2020-09-02T00:11:53 IST">
+      <class name="negativeTesting.FlightNegaTest">
+        <test-method status="PASS" signature="checkForSameFromAndToCity()[pri:0, instance:negativeTesting.FlightNegaTest@15ca7889]" name="checkForSameFromAndToCity" duration-ms="63988" started-at="2020-09-02T00:10:38 IST" finished-at="2020-09-02T00:11:42 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- oneWayTrip -->
-      </class> <!-- testWithMavenMakeMyTrip.MainPageFlightsTest -->
+        </test-method> <!-- checkForSameFromAndToCity -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:negativeTesting.FlightNegaTest@15ca7889]" name="closeBrowser" is-config="true" duration-ms="11312" started-at="2020-09-02T00:11:42 IST" finished-at="2020-09-02T00:11:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- negativeTesting.FlightNegaTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
