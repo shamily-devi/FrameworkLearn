@@ -84,6 +84,9 @@ public class MainPageFlights {
 	@FindBy(css = "[class='hsw_sectionTitle font12 latoBlack greyText']") 
 	private static WebElement popularCity;
 	
+	@FindBy(css="span[data-cy='sameCityError']")
+	private static WebElement errMsgSameCity;
+	
 	public MainPageFlights(WebDriver driver) {		
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
@@ -95,6 +98,9 @@ public class MainPageFlights {
 
 	public WebElement getPopularCity() {
 		return popularCity;
+	}
+	public WebElement getErrMsgSameCity() {
+		return errMsgSameCity;
 	}
 
 	public WebElement getSuggestionList() {
