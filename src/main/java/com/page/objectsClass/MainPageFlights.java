@@ -11,57 +11,78 @@ public class MainPageFlights {
 	
 	WebDriver driver;
 	
-	String serachBoxDOM = "return document.querySelector(\"input[aria-controls='react-autowhatever-1']\").getAttribute(\"value\");";
+	private static String serachBoxDOM = "return document.querySelector(\"input[aria-controls='react-autowhatever-1']\").getAttribute(\"value\");";
 	
-	@FindBy(id="fromCity") private static WebElement from;
+	@FindBy(id="fromCity") 
+	private static WebElement from;
 	
-	@FindBy(xpath="//input[@aria-controls='react-autowhatever-1']") WebElement searchBox;
+	@FindBy(xpath="//input[@aria-controls='react-autowhatever-1']") 
+	private static WebElement searchBox;
 	
 	@FindBy(id="toCity") WebElement to;
 	
-	@FindBy(xpath="//label[@for='departure']") WebElement departure;
+	@FindBy(xpath="//label[@for='departure']") 
+	private static WebElement departure;
 	
-	@FindBy(xpath="//*[@aria-label='Next Month']") WebElement nextButton;
+	@FindBy(xpath="//*[@aria-label='Next Month']") 
+	private static WebElement nextButton;
 	
-	@FindBy(xpath="(//*[@class='DayPicker-Caption'])[1]") WebElement depatureMonth;
+	@FindBy(xpath="(//*[@class='DayPicker-Caption'])[1]") 
+	private static WebElement depatureMonth;
 	
-	@FindBy(xpath="(//*[@class='DayPicker-Caption'])[2]") WebElement returnMonth;
+	@FindBy(xpath="(//*[@class='DayPicker-Caption'])[2]") 
+	private static WebElement returnMonth;
 
 	
-	@FindBy(xpath = "(//div[@class='DayPicker-Month'])[1]/div/div/div/div") List<WebElement> depatureDays;
+	@FindBy(xpath = "(//div[@class='DayPicker-Month'])[1]/div/div/div/div") 
+	private static List<WebElement> depatureDays;
 	
-	@FindBy(xpath = "(//div[@class='DayPicker-Month'])[2]/div/div/div/div") List<WebElement> returnDays;
+	@FindBy(xpath = "(//div[@class='DayPicker-Month'])[2]/div/div/div/div") 
+	private static List<WebElement> returnDays;
 
 	
-	@FindBy(xpath="//*[@data-cy='travellerText']") WebElement travellersClass;
+	@FindBy(xpath="//*[@data-cy='travellerText']") 
+	private static WebElement travellersClass;
 	
-	@FindBy(xpath = "//p[@data-cy='adultRange']/following-sibling::ul[1]/li") List<WebElement> noOfAldults;
+	@FindBy(xpath = "//p[@data-cy='adultRange']/following-sibling::ul[1]/li") 
+	private static List<WebElement> noOfAldults;
 	
-	@FindBy(xpath = "//p[@data-cy='childrenRange']/following-sibling::ul/li") List<WebElement> noOfChildren;
+	@FindBy(xpath = "//p[@data-cy='childrenRange']/following-sibling::ul/li") 
+	private static List<WebElement> noOfChildren;
 
-	@FindBy(xpath = "//p[@data-cy='infantRange']/following-sibling::ul/li") List<WebElement> noOfInfants;
+	@FindBy(xpath = "//p[@data-cy='infantRange']/following-sibling::ul/li") 
+	private static List<WebElement> noOfInfants;
 		
-	@FindBy(xpath = "//p[@data-cy='chooseTravelClass']/following-sibling::ul") List<WebElement> travelClassList;
+	@FindBy(xpath = "//p[@data-cy='chooseTravelClass']/following-sibling::ul") 
+	private static List<WebElement> travelClassList;
 
-	@FindBy(xpath="//button[@data-cy='travellerApplyBtn']") WebElement apply;
+	@FindBy(xpath="//button[@data-cy='travellerApplyBtn']") 
+	private static WebElement apply;
 	
 	
-	@FindBy(css="a[class*='widgetSearchBtn ']") WebElement search;
+	@FindBy(css="a[class*='widgetSearchBtn ']") 
+	private static WebElement search;
 	
-	@FindBy(css ="li[data-cy='oneWayTrip']") WebElement oneWay;
+	@FindBy(css ="li[data-cy='oneWayTrip']") 
+	private static WebElement oneWay;
 
 
-	@FindBy(css ="li[data-cy='roundTrip']") WebElement roundTrip;
+	@FindBy(css ="li[data-cy='roundTrip']") 
+	private static WebElement roundTrip;
 	
-	@FindBy(css ="li[data-cy='mulitiCityTrip']") WebElement multiCity;
+	@FindBy(css ="li[data-cy='mulitiCityTrip']") 
+	private static WebElement multiCity;
 	
 	//div[@class='makeFlex hrtlCenter'] //div[contains(@class,'pushRight')]
 	
-	@FindBy(xpath ="//div[@class='makeFlex hrtlCenter'] //div[contains(@class,'pushRight')]") List<WebElement> suggestedToCity;
+	@FindBy(xpath ="//div[@class='makeFlex hrtlCenter'] //div[contains(@class,'pushRight')]") 
+	private static List<WebElement> suggestedToCity;
 
-	@FindBy(xpath="//ul[@class='react-autosuggest__suggestions-list']") WebElement suggestionList;
+	@FindBy(xpath="//ul[@class='react-autosuggest__suggestions-list']") 
+	private static WebElement suggestionList;
 	
-	@FindBy(css = "[class='hsw_sectionTitle font12 latoBlack greyText']") WebElement popularCity;
+	@FindBy(css = "[class='hsw_sectionTitle font12 latoBlack greyText']") 
+	private static WebElement popularCity;
 	
 	public MainPageFlights(WebDriver driver) {		
 		this.driver=driver;
