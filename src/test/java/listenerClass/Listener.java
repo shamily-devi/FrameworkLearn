@@ -30,6 +30,7 @@ public class Listener extends Base implements ITestListener {
 					.get(result.getInstance());
 		} catch (Exception e1) {
 			e1.printStackTrace();
+			
 		}
 
 		try {
