@@ -1,21 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="75506" started-at="2020-09-02T00:10:38 IST" finished-at="2020-09-02T00:11:53 IST">
+  <suite name="Default suite" duration-ms="113893" started-at="2020-09-11T14:32:03 IST" finished-at="2020-09-11T14:33:57 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="75506" started-at="2020-09-02T00:10:38 IST" finished-at="2020-09-02T00:11:53 IST">
-      <class name="negativeTesting.FlightNegaTest">
-        <test-method status="PASS" signature="checkForSameFromAndToCity()[pri:0, instance:negativeTesting.FlightNegaTest@15ca7889]" name="checkForSameFromAndToCity" duration-ms="63988" started-at="2020-09-02T00:10:38 IST" finished-at="2020-09-02T00:11:42 IST">
+    <test name="Default test" duration-ms="113893" started-at="2020-09-11T14:32:03 IST" finished-at="2020-09-11T14:33:57 IST">
+      <class name="testWithMavenMakeMyTrip.MainPageFlightsTest">
+        <test-method status="PASS" signature="oneWayTrip(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testWithMavenMakeMyTrip.MainPageFlightsTest@175b9425]" name="oneWayTrip" duration-ms="46491" started-at="2020-09-11T14:32:05 IST" data-provider="getData" finished-at="2020-09-11T14:32:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DEL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[September]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkForSameFromAndToCity -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:negativeTesting.FlightNegaTest@15ca7889]" name="closeBrowser" is-config="true" duration-ms="11312" started-at="2020-09-02T00:11:42 IST" finished-at="2020-09-02T00:11:53 IST">
+        </test-method> <!-- oneWayTrip -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testWithMavenMakeMyTrip.MainPageFlightsTest@175b9425]" name="closeBrowser" is-config="true" duration-ms="1245" started-at="2020-09-11T14:32:51 IST" finished-at="2020-09-11T14:32:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- negativeTesting.FlightNegaTest -->
+        <test-method status="PASS" signature="oneWayTrip(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testWithMavenMakeMyTrip.MainPageFlightsTest@175b9425]" name="oneWayTrip" duration-ms="32093" started-at="2020-09-11T14:32:53 IST" data-provider="getData" finished-at="2020-09-11T14:33:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ATH]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BOM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[September]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneWayTrip -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testWithMavenMakeMyTrip.MainPageFlightsTest@175b9425]" name="closeBrowser" is-config="true" duration-ms="1698" started-at="2020-09-11T14:33:25 IST" finished-at="2020-09-11T14:33:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="oneWayTrip(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testWithMavenMakeMyTrip.MainPageFlightsTest@175b9425]" name="oneWayTrip" duration-ms="29800" started-at="2020-09-11T14:33:27 IST" data-provider="getData" finished-at="2020-09-11T14:33:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BKK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[September]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneWayTrip -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testWithMavenMakeMyTrip.MainPageFlightsTest@175b9425]" name="closeBrowser" is-config="true" duration-ms="358" started-at="2020-09-11T14:33:56 IST" finished-at="2020-09-11T14:33:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testWithMavenMakeMyTrip.MainPageFlightsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

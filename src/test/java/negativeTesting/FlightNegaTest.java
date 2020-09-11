@@ -25,7 +25,9 @@ public class FlightNegaTest extends Base {
 	
 	@Test
 	public void checkForSameFromAndToCity() throws IOException {
-		String fromAndToCityArr[] = { "MAA", "MAA" };
+		String fromCity =  "MAA";
+		String toCity =  "MAA";
+
 		driver = browserCall();
 		log.info("Browser Initilzatied Successfully");
 		driver.get(prop.getProperty("url"));
@@ -36,7 +38,9 @@ public class FlightNegaTest extends Base {
 		log.debug("invoking toOrFromCitySelect method ");
 		pf = new MainPageFlightsTest();
 
-		pf.toOrFromCitySelect(fromAndToCityArr,f,driver);
+		pf.toOrFromCitySelect(fromCity,f,driver);
+		pf.toOrFromCitySelect(toCity,f,driver);
+
 		
 		Assert.assertTrue(f.getErrMsgSameCity().getText().equals("From & To airports cannot be the same"));
 		log.info("Porpoer error message is Shown ");
